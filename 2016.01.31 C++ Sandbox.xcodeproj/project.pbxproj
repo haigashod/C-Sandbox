@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		342AA7631C5EAF4100C402F3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 342AA7621C5EAF4100C402F3 /* main.cpp */; };
+		342AA76B1C5EAFB500C402F3 /* HelloWorldWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 342AA7691C5EAFB500C402F3 /* HelloWorldWorker.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		342AA75F1C5EAF4100C402F3 /* 2016.01.31 C++ Sandbox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2016.01.31 C++ Sandbox"; sourceTree = BUILT_PRODUCTS_DIR; };
 		342AA7621C5EAF4100C402F3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		342AA7691C5EAFB500C402F3 /* HelloWorldWorker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldWorker.cpp; sourceTree = "<group>"; };
+		342AA76A1C5EAFB500C402F3 /* HelloWorldWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldWorker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				342AA7621C5EAF4100C402F3 /* main.cpp */,
+				342AA7691C5EAFB500C402F3 /* HelloWorldWorker.cpp */,
+				342AA76A1C5EAFB500C402F3 /* HelloWorldWorker.h */,
 			);
 			path = "2016.01.31 C++ Sandbox";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				342AA7631C5EAF4100C402F3 /* main.cpp in Sources */,
+				342AA76B1C5EAFB500C402F3 /* HelloWorldWorker.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

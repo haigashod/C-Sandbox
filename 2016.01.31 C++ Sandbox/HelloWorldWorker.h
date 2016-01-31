@@ -6,9 +6,24 @@
 //  Copyright © 2016 Haig Beylerian. All rights reserved.
 //
 
-#ifndef HelloWorldWorker_hpp
-#define HelloWorldWorker_hpp
+#ifndef HelloWorldWorker_h
+#define HelloWorldWorker_h
 
 #include <stdio.h>
 
-#endif /* HelloWorldWorker_hpp */
+class HelloWorldWorker {
+private:
+    //put your private stuff here
+    int blah;
+    float otherBlah;
+public:
+    //put your public stuff here
+    void printHelloWorld();
+    static void printHelloWorldStatic();
+    void incrementByValue(int);
+    void incrementByReference(int*);
+    void printFiveMoreThan(int);
+    void printFiveMoreThanRef(int*);
+};
+
+#endif /* HelloWorldWorker_h */
